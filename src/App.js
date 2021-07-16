@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/Home';
 const App = () => {
   return (
-    <Router>
+    <Router basename="/patientListReactFirebase">
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home/>
         </Route>
       </Switch>
     </Router>
