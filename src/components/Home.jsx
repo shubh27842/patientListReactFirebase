@@ -4,7 +4,6 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ClearIcon from '@material-ui/icons/Clear';
 import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import firebase from "../firebase";
-import PersonIcon from '@material-ui/icons/Person';
 import PatientList from "./PatientList";
 import SpellcheckIcon from '@material-ui/icons/Spellcheck';
 import LocalHospitalIcon from '@material-ui/icons/LocalHospital';

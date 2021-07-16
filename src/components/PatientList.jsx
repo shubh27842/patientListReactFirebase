@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import PersonIcon from '@material-ui/icons/Person';
 
 const PatientList = (props) => {
@@ -9,7 +9,7 @@ const PatientList = (props) => {
     dummy.fill("",0,combo);
     return(
         <div className="patientList d-flex align-items-center p-3 px-4 border my-3 mx-auto">
-            <img src="https://dummyimage.com/100x100/000/fff" className="ml-2" style={{
+            <img src="https://dummyimage.com/100x100/000/fff" alt="profile" className="ml-2" style={{
                 width: "40px",
                 height: "40px",
                 borderRadius: "50%"
